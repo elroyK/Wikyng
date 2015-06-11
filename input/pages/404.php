@@ -1,0 +1,2 @@
+<div class="centerDiv"><img src="./img/<?php  if (logged_in() && $_SESSION['id'] == 17) echo "G_";?>404.png" alt="404" id="404"></div>
+<p class="centerP">Oups !<br>La page que vous avez demandée est introuvable !</p>

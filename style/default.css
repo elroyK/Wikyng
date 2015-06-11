@@ -1,0 +1,408 @@
+html{
+    background-color: #d1d1d1;
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Geneva, sans-serif;
+    color: black;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#topline{
+    background-color: #ff6525;
+    height: 10px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 230px;
+    height: 200px;
+    margin: 25px auto;
+    display: block;
+}
+
+#menu_home{
+    background-image: url("../img/accueil_idle.png");
+    width: 131px;
+}
+
+#menu_home:hover{
+    background-image: url("../img/D_accueil_active.png");
+}
+
+#menu_contact{
+    background-image: url("../img/contact_idle.png");
+    width: 144px;
+}
+
+#menu_contact:hover{
+    background-image: url("../img/D_contact_active.png");
+}
+
+#menu_profil{
+    background-image: url("../img/profil_idle.png");
+    width: 113px;
+}
+
+#menu_profil:hover{
+    background-image: url("../img/D_profil_active.png");
+}
+
+#menu_logout{
+    background-image: url("../img/deconnexion_idle.png");
+    width: 204px;
+}
+
+#menu_logout:hover{
+    background-image: url("../img/D_deconnexion_active.png");
+}
+
+#menu_register{
+    background-image: url("../img/enregistrement_idle.png");
+    width: 247px;
+}
+
+#menu_register:hover{
+    background-image: url("../img/D_enregistrement_active.png");
+}
+
+#menu_login{
+    background-image: url("../img/connexion_idle.png");
+    width: 171px;
+}
+
+#menu_login:hover{
+    background-image: url("../img/D_connexion_active.png");
+}
+
+nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 28px;
+    text-align: center;
+}
+
+nav a{
+    margin: 0;
+    display: inline-block;
+    height: 28px;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+#footer{
+    background-image: url("../img/foot.png");
+    background-color: a3a3a3;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    padding: auto;
+}
+
+#footer p{
+    display: inline-block;
+}
+
+#copyright{
+    position: relative;
+    top: 15%;
+}
+
+#page{
+    margin: 10px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+.customForm label{
+    float: left;
+    text-align: right;
+    margin-right: 15px;
+    width: 250px;
+    font-weight: bold;
+}
+
+.customForm input:focus, .customForm textarea:focus{
+    border: 2px solid #ff6525;
+}
+
+.customForm{
+    margin: 10px auto;
+}
+
+.customForm p{
+    display: inline;
+}
+
+.formCenter{
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+a{
+    color: #ff6525;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff773e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited:hover{
+    color: #ff773e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ff4600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2{
+    color: #ff6525;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.smallForm{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#connectForm{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sendButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#404{
+    width: 534px;
+    height: 232px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
+    text-align: center;
+}
+
+.centerP{
+    text-align: center;
+    margin: 25px auto;
+}
+
+.centerDiv{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact{
+    width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profileForm{
+    display: inline-block;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#profilepage{
+    width: 900px;
+    margin: 10px auto;
+}
+
+#adminModUser{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+#profileAvatar{
+    float: right;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#proAvatar{
+    display: block;
+    margin: 5px auto;
+}
+
+h3{
+    color: #ff4600;
+}
+
+#submenu h4{
+    display: inline-block;
+    color: #ff4600;
+    margin-top: 10px;
+}
+
+#submenu{
+    float: left;
+    display: inline-block;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.tinyForm{
+    width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subbullet{
+    margin-bottom: 0px;
+}
+
+#adminTable{
+    font-size: 10pt;
+    background: #d1d1d1;
+    box-shadow: inset 0 1px 0 #d1d1d1;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#adminTable th{
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #000;
+    background-color: #ff6525;
+    position: relative;
+    padding: 10px;
+}
+
+#adminTable th:after{
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+    content: '';
+    display: block;
+    height: 25%;
+    left: 0;
+    margin: 1px 0 0 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+#adminTable th:first-child {
+    border-left: 1px solid #777;
+    box-shadow: inset 1px 1px 0 #999;
+}
+
+#adminTable th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+}
+
+#adminTable td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+#adminTable td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}
+
+#adminTable td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}
+
+#adminTable tr:nth-child(odd) td {
+    background: #d9d9d9;
+}
+
+#adminTable tr:last-of-type td {
+    box-shadow: inset 0 -1px 0 #fff;
+}
+
+#adminTable tr:last-of-type td:first-child {
+    box-shadow: inset 1px -1px 0 #fff;
+}
+
+#adminTable tr:last-of-type td:last-child {
+    box-shadow: inset -1px -1px 0 #fff;
+}
+
+#adminTable tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #aaa;
+}
+
+#adminTable tbody:hover tr:hover td {
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
+
+fieldset{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    color: #ff6525;
+    font-weight: bold;
+}
+
+.customForm fieldset{
+    width: 500px;
+}
+
+#profileFormLeft{
+    float: left;
+    display: inline-block;
+    width: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 0;
+    margin-left: 0;
+}

@@ -1,0 +1,11 @@
+<Files /input/config.ini>
+  Order allow,deny
+  Deny from all
+</Files>
+
+<Directory /img/avatars/>
+    Order allow, deny
+    Allow g+x;
+</Directory>
+
+ErrorDocument 404 /index.php?page=404
